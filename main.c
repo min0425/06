@@ -10,8 +10,8 @@ void print_star()
 	printf("*");
 }
 int main(int argc, char *argv[]) {
-	print_star();
-	print_star();
+	int a;
+	for(a=0;a<3;a++)
 	print_star();
 	
 
